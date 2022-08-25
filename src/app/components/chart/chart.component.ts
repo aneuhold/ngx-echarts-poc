@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { EChartsOption } from 'echarts';
+import { option } from './data';
 
 @Component({
   selector: 'chart',
@@ -10,19 +10,8 @@ export class ChartComponent {
   /**
    * The actual data for the chart to display
    */
-  chartOption: EChartsOption = {
-    xAxis: {
-      type: 'category',
-      data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
-    },
-    yAxis: {
-      type: 'value',
-    },
-    series: [
-      {
-        data: [820, 932, 901, 934, 1290, 1330, 1320],
-        type: 'line',
-      },
-    ],
+  chartOption: any = option;
+  initOptions = {
+    renderer: 'svg',
   };
 }
