@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { EChartsOption } from 'echarts';
 
 @Component({
-  selector: 'app-chart',
+  selector: 'chart',
   templateUrl: './chart.component.html',
   styleUrls: ['./chart.component.less'],
 })

@@ -8,7 +8,8 @@
     "build:stats": "ng build --configuration development --stats-json",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "analyze:before": "webpack-bundle-analyzer bundle-stats/before-ngx-echarts.json"
+    "analyze:before": "webpack-bundle-analyzer bundle-stats/before-ngx-echarts.json",
+    "analyze:basic": "webpack-bundle-analyzer bundle-stats/after-ngx-echarts-basic.json"
   },
   "private": true,
   "dependencies": {
