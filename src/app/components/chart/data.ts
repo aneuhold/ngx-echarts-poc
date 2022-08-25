@@ -1,15 +1,15 @@
 // In the documentation it says to import this from the `types` folder
 // but in practice this is used in this file for actual functions so it
 // should be the root echarts object instead.
-import * as echarts from 'echarts';
 import { ScatterSeriesOption } from 'echarts/charts';
 import {
   GridComponentOption,
   LegendComponentOption,
   TitleComponentOption,
 } from 'echarts/components';
+import { ComposeOption, graphic } from 'echarts/core';
 
-export type EChartsOption = echarts.ComposeOption<
+export type EChartsOption = ComposeOption<
   | TitleComponentOption
   | GridComponentOption
   | LegendComponentOption
@@ -113,7 +113,7 @@ export const option: EChartsOption = {
         shadowBlur: 10,
         shadowColor: 'rgba(120, 36, 50, 0.5)',
         shadowOffsetY: 5,
-        color: new echarts.graphic.RadialGradient(0.4, 0.3, 1, [
+        color: new graphic.RadialGradient(0.4, 0.3, 1, [
           {
             offset: 0,
             color: 'rgb(251, 118, 123)',
@@ -146,7 +146,7 @@ export const option: EChartsOption = {
         shadowBlur: 10,
         shadowColor: 'rgba(25, 100, 150, 0.5)',
         shadowOffsetY: 5,
-        color: new echarts.graphic.RadialGradient(0.4, 0.3, 1, [
+        color: new graphic.RadialGradient(0.4, 0.3, 1, [
           {
             offset: 0,
             color: 'rgb(129, 227, 238)',
