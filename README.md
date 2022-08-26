@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
 
+![image](https://user-images.githubusercontent.com/17774559/186968718-a0169f64-401a-44f2-9d53-8562aff2592b.png)
+
 ## Startup
 
 1. Run `yarn`
