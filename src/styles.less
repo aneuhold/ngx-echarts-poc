@@ -1,1 +1,108 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  /* --- Variables from client-core --- */
+  --color-primary-100: #f3ecfe;
+  --color-primary-200: #cbabfa;
+  --color-primary-300: #aa7ee2;
+  --color-primary-350: #9666cb;
+  --color-primary-400: #7333b9;
+  --color-primary: #5000a8;
+  --color-primary-500: var(--color-primary);
+  --color-primary-900: #3d1c70;
+  --color-primary-link-hover: #8f00ff;
+
+  --color-person-100: #f3fbfe;
+  --color-person-200: #e0f3fc;
+  --color-person: #33a8d3;
+  --color-person-500: var(--color-person);
+  --color-person-700: #0092c8;
+  --color-person-800: #007aa7;
+
+  --color-job-100: #fbd3bd;
+  --color-job-300: #f58a51;
+  --color-job: #ff773d;
+  --color-job-500: var(--color-job);
+  --color-job-800: #e15408;
+
+  --color-info: var(--color-primary-350);
+
+  --color-success-100: #d2eed6;
+  --color-success-400: #89d294;
+  --color-success: #6cc779;
+  --color-success-500: var(--color-success);
+  --color-success-800: #5fa569;
+  --color-success-900: #3c763d;
+
+  --color-warning-100: #feead2;
+  --color-warning-400: #fcce98;
+  --color-warning: #fcba6c;
+  --color-warning-500: var(--color-warning);
+  --color-warning-800: #f49d35;
+  --color-warning-900: #8a6d3b;
+
+  --color-danger-100: #fedae1;
+  --color-danger-400: #f96a86;
+  --color-danger: #f84568;
+  --color-danger-500: var(--color-danger);
+  --color-danger-800: #ea2148;
+  --color-danger-900: #a94442;
+
+  --color-neutral-50: #f2f2f2;
+  --color-neutral-100: #e7e3ec;
+  --color-neutral-200: #e1daec;
+  --color-neutral-300: #d8d6dc;
+  --color-neutral-400: #d1d1d1;
+  --color-neutral: #aeadb0;
+  --color-neutral-500: var(--color-neutral);
+  --color-neutral-600: #91899e;
+  --color-neutral-700: #615a6b;
+  --color-neutral-800: #4f4264;
+  --color-neutral-900: #24133e;
+
+  --color-dlip: var(--color-person);
+
+  --color-disabled-text: #bfb8c9;
+
+  --color-brand-red: #eb0028;
+
+  --color-white: #ffffff;
+
+  --gradient-orange: linear-gradient(
+    90deg,
+    rgba(245, 138, 81, 1) 0%,
+    rgba(249, 106, 134, 1) 100%
+  );
+  --gradient-blue: linear-gradient(
+    90deg,
+    rgba(51, 168, 211, 1) 0%,
+    rgba(115, 51, 185, 1) 100%
+  );
+  --gradient-purple: linear-gradient(
+    90deg,
+    rgba(115, 51, 185, 1) 0%,
+    rgba(80, 0, 168, 1) 100%
+  );
+  --gradient-pink: linear-gradient(
+    90deg,
+    rgba(249, 106, 134, 1) 0%,
+    rgba(115, 51, 185, 1) 100%
+  );
+  --gradient-purple-to-orange: linear-gradient(
+    90deg,
+    rgba(245, 138, 81, 1) 0%,
+    rgba(248, 69, 104, 1) 50%,
+    rgba(115, 51, 185, 1) 100%
+  );
+
+  /* --- Variables Added by Survey Taker --- */
+
+  /* Color Accent 200 is a guessed color, wasn't provided by design */
+  --color-accent-200: #9677ff;
+
+  /* This color was pulled from inspecting disabled Angular Material buttons in Chrome */
+  --material-disabled-color: rgba(0, 0, 0, 0.26);
+
+  --standard-margin: calc(var(--standard-spacing) * 2);
+  --standard-spacing: 8px;
+  --standard-border-radius: 4px;
+}
