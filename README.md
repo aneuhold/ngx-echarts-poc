@@ -26,6 +26,10 @@ After:
 
 ![image](https://user-images.githubusercontent.com/17774559/186968623-ec784192-dce2-438e-9b8d-5334b55c961d.png)
 
+## Performance Analysis
+
+`ngx-echarts` does seem to have a bit of lag when showing animations with a 6x speed CPU throttle, but nothing that seems to be completely deal-breaking.
+
 ## Snapfactory (Custom Tool)
 
 Rendering as a PDF shows up fine
