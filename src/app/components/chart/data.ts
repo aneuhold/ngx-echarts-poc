@@ -8,7 +8,6 @@ import {
   TitleComponentOption,
 } from 'echarts/components';
 import { ComposeOption, graphic } from 'echarts/core';
-import getColor from 'src/app/utils/colorFinder';
 
 export type EChartsOption = ComposeOption<
   | TitleComponentOption
@@ -117,7 +116,7 @@ export const option: EChartsOption = {
         color: new graphic.RadialGradient(0.4, 0.3, 1, [
           {
             offset: 0,
-            color: getColor('--color-primary'),
+            color: 'rgb(251, 118, 123)',
           },
           {
             offset: 1,
